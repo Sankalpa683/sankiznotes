@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300&display=swap');
+/* navstarts */
+.myClass{
+    margin: 1rem;
+    /* padding: 2rem; */
+    box-sizing: border-box;
+    display: flex;
+    /* background-color: black; */
+    /* color: white; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.myClass h1{
+    font-size: 20px;
+}
+.navlinks{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navlinks a{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    padding: 0rem 1rem;
+}
+/* navends */
+
+/* chapter section starts */
+.chapter{
+    position: relative;
+    /* width: 100%; */
+    /* overflow: hidden; */
+    padding: 15px 10px 20px;
+    margin: 15px;
+    box-sizing: border-box;
+    /* : 0 0 5px; */
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+/* chapter section ends */

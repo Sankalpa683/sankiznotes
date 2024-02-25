@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>hello</title>
+</head>
+<body>
+<script>
+	const url = 'https://www.bhojdeals.com/api/?version=5&tag=bhoj_wallet&user_id=199612';
+const headers = new Headers({
+  'Token': 'w%Lf7Du*oI*9PAmm^*64g08VRQyjZ_QG',
+  'Sessiontoken': '55d89ffcceba5dfff196715febc59233'
+});
+
+fetch(url, {
+  method: 'POST', // You can use 'POST' or other methods if needed
+  headers: headers
+})
+  .then(response => {
+    if (response.ok) {
+      return response.json(); // Parse the JSON response if applicable
+    } else {
+      throw new Error('Network response was not ok');
+    }
+  })
+  .then(data => {
+    // Handle the JSON data returned by the API
+    console.log(data);
+  })
+  .catch(error => {
+    // Handle any errors that occurred during the fetch.
+    console.error('Fetch Error:', error);
+  });
+
+</script>
+</body>
+</html>

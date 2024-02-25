@@ -1,0 +1,44 @@
+.haha{
+    margin-top: 4.5rem;
+    z-index: -9999;
+    height: 100vh;
+}
+.footers{
+    position: absolute;
+    bottom: 0px;
+    border: 3px solid #F0F1F1;
+    background-color: #fff;
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 100;
+    font-size: 24px;
+    color: #1877F2;
+    display: none;
+}
+@media screen and (max-width: 768px){
+    .footers{
+        display: flex;
+    }
+}
+
+/* video starts */
+.video_text{
+    display: flex;
+    margin: .5rem;
+    justify-content: space-between;
+}
+
+.video_text .video_subheading{
+    display: flex;
+}
+.video_text .video_subheading p{
+    margin: 0rem 0.4rem;
+}
+.video_text_icon img{
+    border-radius: 50%;
+}
+/* video ends  */

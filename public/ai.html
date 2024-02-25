@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html oncontextmenu="return false">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AI</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<style>
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+      }
+      .chatbox {
+        height: 500px;
+        overflow: auto;
+        border: 1px solid #ccc;
+        padding: 2rem;
+        word-spacing: 5px;
+      }
+      .message {
+        margin-bottom: 10px;
+      }
+      #chatbox {
+        color: blue;
+      }
+      .bot {
+        color: green;
+      }
+      input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        outline: none;
+      }
+      #forums{
+      	display: flex;
+      }
+      button{
+      	cursor: pointer;
+      	padding: 0.5rem 2rem;
+
+      }
+      .chatbox img{
+      	width: 50px;
+      	display: none;
+      }
+
+    </style>
+</head>
+<body>
+		<center><h1>Chat with Sankiz AI</h1></center>
+    <div class="chatbox">
+    	<img src="https://www.ppimusic.ie/images/loading_anim.gif" id="loading_gif">
+    	<strong id="chatbox"></strong>
+    </div>
+    <div id="forums">
+    	<input type="text" id="message" placeholder="Type your message here...">
+    	<button id="clickme">Send</button>
+    </div>
+      <script>
+    document.addEventListener('keydown', function (event) {
+      // Check if Ctrl+Shift+I is pressed
+      if (event.ctrlKey && event.shiftKey && event.key === 'I') {
+        // Do something (e.g., prevent the default action or take other action)
+        event.preventDefault();
+        alert('Developer tools are not allowed.');
+      }
+    });
+  </script>
+  <script>
+    document.addEventListener('keydown', function (event) {
+      // Check if Ctrl+U is pressed
+      if (event.ctrlKey && event.key == 'u' || event.ctrlKey && event.key == 'U') {
+        // Do something (e.g., prevent the default action or take other action)
+        event.preventDefault();
+        alert('Viewing page source is not allowed.');
+      }
+    });
+  </script>
+
+<script type="importmap">
+      {
+        "imports": {
+          "@google/generative-ai": "https://esm.run/@google/generative-ai"
+        }
+      }
+    </script>
+    <script type="module">
+
+      import { GoogleGenerativeAI } from "@google/generative-ai";
+
+      // Fetch your API_KEY
+      const API_KEY = "AIzaSyA5_kT5NLHmU5FEAbHUSwAm7W_S6mc-qvU";
+
+      // Access your API key (see "Set up your API key" above)
+		const genAI = new GoogleGenerativeAI(API_KEY);
+		$('#clickme').click(function(){
+			async function run() {
+				$('#loading_gif').css("display",'block');
+		  // For text-only input, use the gemini-pro model
+		  const model = genAI.getGenerativeModel({ model: "gemini-pro"});
+
+		  const prompt = $('#message').val();
+
+		  const result = await model.generateContent(prompt);
+		  const response = await result.response;
+		  const text = response.text();
+		  console.log(text);
+		  document.getElementById('chatbox').innerText = text;
+		 $('#message').val('');
+		   $('#loading_gif').css("display",'none');
+		}
+
+		run();
+		});
+		
+    </script>
+</body>
+</html>

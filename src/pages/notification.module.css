@@ -1,0 +1,61 @@
+/* notification starts */
+.notification{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+} 
+.header{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.notification .header h1{
+    color: #1c1e21;
+    font-size: 25px;
+    font-weight: 700;
+}
+.notification .all_button{
+    padding: 1rem;
+}
+/* notification ends */
+/* .notifications starts */
+.notifications{
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    cursor: pointer;
+}
+.notifications .notification_div{
+    display: flex;
+    padding: 0.4rem 2rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    justify-content: space-between;
+    transition: 0.20s;
+    /* background-color: #EAF5FE; */
+
+}
+.notifications .notification_div:hover{
+    background-color: #F2F2F2;
+}
+.notifications .notification_div_img img{
+    width: 55px;
+    border-radius: 50%;
+}
+.notifications p{
+    margin-left: 1rem;
+}
+.notifications .notification_div_app{
+    margin-left: 1.4rem;
+}
+.notifications .notification_div_app .notification_div_color{
+    background-color: #0967FF;
+    width: .9em;
+    height: .9em;
+    margin-top: .7rem;
+    border-radius: 50%;
+}
+/* .notifications ends */

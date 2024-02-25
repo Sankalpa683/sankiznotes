@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap');
+/* navstarts */
+.myClass{
+    margin: 1rem;
+    /* padding: 2rem; */
+    box-sizing: border-box;
+    display: flex;
+    /* background-color: black; */
+    /* color: white; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.myClass h1{
+    font-size: 20px;
+}
+.navlinks{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navlinks a{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    padding: 0rem 1rem;
+}
+/* navends */
+
+/* header starts */
+.header{
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 91vh;
+  margin: 0;
+}
+.header h1{
+    font-size: 2.5em;
+    font-family: Source Sans Pro,Helvetica,sans-serif;
+}
+.header p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    letter-spacing: 0;
+}
+.styleicon{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    animation: scroll-down 1s linear infinite;
+  }
+  
+  @keyframes scroll-down {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(0, 10px);
+    }
+  }
+/* header ends  */
+/* subjects starts */
+.subject{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* margin: 1rem; */
+}
+.subject .subjects_div{
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 26rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 1rem 0rem;
+    cursor: pointer;
+    font-family: 'Fira Sans', sans-serif;
+}
+.subject .subjects_div img{
+  width: 100%;
+}
+.subject .subjects_div h1{
+  transition: 0.24s;
+  margin: 1rem 0rem;
+  word-break: break-all;
+  font-size: 23px;
+}
+.subject .subjects_div h1:hover{
+  color: #3949ab;
+}
+.subject .subjects_div p{
+  word-break: break-all;
+}
+@media screen and (max-width: 400px){
+  .subject .subjects_div{
+    width: fit-content;
+  } 
+}
+/* subjects ends */

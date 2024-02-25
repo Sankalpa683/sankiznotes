@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap');
+/* navstarts */
+.myClass{
+    margin: 1rem;
+    /* padding: 2rem; */
+    box-sizing: border-box;
+    display: flex;
+    /* background-color: black; */
+    /* color: white; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.myClass h1{
+    font-size: 20px;
+}
+.navlinks{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navlinks a{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    padding: 0rem 1rem;
+}
+/* navends */
+
+/* header starts */
+.header{
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 91vh;
+  margin: 0;
+}
+.header h1{
+    font-size: 2.5em;
+    font-family: Source Sans Pro,Helvetica,sans-serif;
+}
+.header p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    letter-spacing: 0;
+}
+.styleicon{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    animation: scroll-down 1s linear infinite;
+  }
+  
+  @keyframes scroll-down {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(0, 10px);
+    }
+  }
+/* header ends  */
+/* widget starts */
+.widgets{
+    width: fit-content;
+    display: flex;
+    top: 1rem;
+    margin: 1rem;
+    padding: 1rem 1rem;
+    margin: 0 auto; 
+    box-shadow: 0 15PX 35px rgba(0,0,0,.09);
+    border-radius: 2rem;
+}
+.widgets h2{
+    margin: 0rem 1rem;
+    
+}
+/* widget ends */
