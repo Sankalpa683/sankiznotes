@@ -8,7 +8,7 @@ function helloworld() {
   return (
     <div>
         <Head>
-            <title>Computer - data-communications-networking</title>
+            <title>Computer - Web Technology</title>
         </Head>
         <Nav/>
         <br></br><br></br><br></br>
@@ -48,7 +48,7 @@ function helloworld() {
                 <h1 class={styles.heading}>Data Communications & Networking - Class 12</h1>
             </div>
             <div className={styles.upload_time}>
-            <iframe src="https://drive.google.com/file/d/1xVjFMvKj3P8Kgg30fm0NWDkJHAHEtzXx/preview" width="100%" height="780" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1iErSUCQeu1ye1V7JlPPLDeJ4tpcLUcK5/view?usp=sharing" width="100%" height="780" allow="autoplay"></iframe>
             </div>
         </div><br></br><br></br>
         <div>
