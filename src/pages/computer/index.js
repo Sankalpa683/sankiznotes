@@ -69,9 +69,9 @@ const website = () => {
               <h2>Web Technology</h2>
             </div>
             <div className={styles.chapter_context_button}>
-              <button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+              <Link href='omputer/chapters/web-technology'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
                 Notes
-              </button>
+              </button></Link>
             </div>
           </div>
           <div className={styles.chapter_context}>
