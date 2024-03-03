@@ -8,7 +8,7 @@ function helloworld() {
   return (
     <div>
         <Head>
-            <title>Computer - data-communications-networking</title>
+            <title>Computer - Object Oriented Programming</title>
         </Head>
         <Nav/>
         <br></br><br></br><br></br>
@@ -37,7 +37,7 @@ function helloworld() {
                   <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
                   </svg>
-                  <span class="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400">data-communications-networking</span>
+                  <span class="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400">object-oriented-programming</span>
                 </div>
               </li>
             </ol>
@@ -45,10 +45,10 @@ function helloworld() {
         
             </div><br></br>
             <div className='heaading_text'>
-                <h1 class={styles.heading}>Data Communications & Networking - Class 12</h1>
+                <h1 class={styles.heading}>Object Oriented Programming - Class 12</h1>
             </div>
             <div className={styles.upload_time}>
-            <iframe src="https://drive.google.com/file/d/1xVjFMvKj3P8Kgg30fm0NWDkJHAHEtzXx/preview" width="100%" height="780" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1LJd6jCvMvNZWUZZP5BQweOVj83V0MK-x/preview" width="100%" height="780" allow="autoplay"></iframe>
             </div>
         </div><br></br><br></br>
         <div>
