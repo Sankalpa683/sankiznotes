@@ -95,9 +95,9 @@ const website = () => {
               <h2>Object Oriented Programming</h2>
             </div>
             <div className={styles.chapter_context_button}>
-              <button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+              <Link href='computer/chapters/oop'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
                 Notes
-              </button>
+              </button></Link>
             </div>
           </div>
           <div className={styles.chapter_context}>
