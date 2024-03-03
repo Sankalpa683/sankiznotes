@@ -48,7 +48,7 @@ function helloworld() {
                 <h1 class={styles.heading}>Web Technology- Class 12</h1>
             </div>
             <div className={styles.upload_time}>
-                    <iframe src="https://drive.google.com/file/d/1iErSUCQeu1ye1V7JlPPLDeJ4tpcLUcK5/preview" width="100%" height="780" allow="autoplay"></iframe>
+                    <iframe src="https://drive.google.com/file/d/19OZx_Jj089AWV9SXaZoaHcFp4mJ627KQ/preview" width="100%" height="780" allow="autoplay"></iframe>
             </div>
         </div><br></br><br></br>
         <div>
