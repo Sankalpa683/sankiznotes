@@ -5,15 +5,16 @@ import Link from 'next/link';
 import Head from 'next/head';
 import Script from 'next/script';
 import Image from 'next/image';
+import { siteConfig } from '@/config/siteConfig';
 
 const website = () => {
   return (
     <div>
-      <Head><title>SankNote - Notes</title>
+      <Head><title>{siteConfig.productName} - Notes</title>
       </Head>
         <div className={styles.myClass}>
           <div className='nav-logo'>
-              <h1>Sank<span>Notes</span> </h1>
+              <h1>{siteConfig.productName} </h1>
           </div>
           <div className={styles.navlinks}>
             <a href='/'>Home</a>
@@ -35,10 +36,10 @@ const website = () => {
             /> */}
           </div>
           <div className={styles.header_text}>
-            <h1>Welcome to SankNotes</h1>
+            <h1>Welcome to {siteConfig.productName}</h1>
           </div>
           <div className={styles.paragraph}>
-          <p><b>Sank Notes</b> by Sankalpa Dahal is an initative which provides <b>Notes, Notices, Syllabus, Question Answer and other Study Materials</b>, <br/>Resources for <b>Class 12 NEB Students</b>,etc.</p>
+          <p><b>{siteConfig.productName}</b> by Sankalpa Dahal is an initative which provides <b>Notes, Notices, Syllabus, Question Answer and other Study Materials</b>, <br/>Resources for <b>Class 12 NEB Students</b>,etc.</p>
           </div>
           <div className={styles.header_button}>
           <button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">

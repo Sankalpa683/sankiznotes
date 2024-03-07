@@ -5,11 +5,12 @@ import Head from 'next/head.js';
 import Link from 'next/link.js';
 import Nav from '../../nav.js'
 import Footer from '../../footer.js'
+import { siteConfig } from '@/config/siteConfig.js';
 
 function recent_trends() {
   return (
     <div>
-        <Head><title>Recent Trends in Technology - Computer Class 12 Note | SankNotes</title>
+        <Head><title>Recent Trends in Technology - Computer Class 12 Note | {siteConfig.productName}</title>
       </Head>
       <br></br><br></br><br></br>
       <div class="container mx-auto px-5 py-5">

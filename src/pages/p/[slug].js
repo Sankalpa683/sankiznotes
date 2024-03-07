@@ -6,6 +6,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import Script from 'next/script';
 import Image from 'next/image';
+import { siteConfig } from '@/config/siteConfig';
  
 export default function Page() {
   const router = useRouter()
@@ -38,7 +39,7 @@ export default function Page() {
             /> */}
           </div>
           <div className={styles.header_text}>
-            <h1>Welcome to SankNotes</h1>
+            <h1>Welcome to {siteConfig.productName}</h1>
           </div>
           <div className={styles.paragraph}>
           <p><b>Sank Notes</b> by Sankalpa Dahal is an initative which provides <b>Notes, Notices, Syllabus, Question Answer and other Study Materials</b>, <br/>Resources for <b>Class 12 NEB Students</b>,etc.</p>

@@ -6,12 +6,13 @@ import Link from 'next/link';
 import Script from 'next/script';
 import Image from 'next/image';
 import Footer from './footer.js'
+import { siteConfig } from '@/config/siteConfig.js';
 
 function notification() {
   return (
     <div className={styles.html}>
         <Head>
-            <title>SankNotes - Notifications</title>
+            <title>{siteConfig.productName} - Notifications</title>
         </Head>
         <Nav/>
         <br></br><br></br><br></br>

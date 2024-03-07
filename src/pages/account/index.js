@@ -7,11 +7,12 @@ import Script from 'next/script';
 import Image from 'next/image';
 import Nav from '../nav.js'
 import Footer from '../footer.js'
+import { siteConfig } from '@/config/siteConfig';
 
 const website = () => {
   return (
     <div>
-      <Head><title>SankNote - Notes</title>
+      <Head><title>{siteConfig.productName} - Notes</title>
       </Head>
 
 <Nav/><br></br><br></br><br></br>    

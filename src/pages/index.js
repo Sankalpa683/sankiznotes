@@ -8,11 +8,12 @@ import Image from 'next/image';
 import Nav from './nav.js'
 import Footer from './footer.js'
 import Class from './component/class.js'
+import { siteConfig } from '@/config/siteConfig';
 
 const website = () => {
   return (
     <div>
-      <Head><title>SankNote - Home </title>
+      <Head><title>{siteConfig.productName} - Home </title>
       <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -154,8 +155,8 @@ const website = () => {
         <div class="md:flex md:justify-between">
             <div class="mb-6 md:mb-0">
                 <a href="/about" class="flex items-center">
-                    <img src="/logo.png" class="mr-3 h-8" alt="SankNotes Logo" />
-                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">SankNotes</span>
+                    <img src="/logo.png" class="mr-3 h-8" alt="MozeeeNotes Logo" />
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">{siteConfig.productName}</span>
                 </a>
             </div>
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -196,7 +197,7 @@ const website = () => {
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
-            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="/" class="hover:underline">SankNotes™</a>. All Rights Reserved.
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="/" class="hover:underline">{siteConfig.productName}</a>. All Rights Reserved.
             </span>
             <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
                 <a href="https://facebook.com/" target='_blank' class="text-gray-500 hover:text-blue-500 dark:hover:text-white">

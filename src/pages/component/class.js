@@ -3,12 +3,13 @@ import React from 'react'
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
+import { siteConfig } from '@/config/siteConfig';
 
 function subject() {
   return (
     <div>
       <Head>
-        <title>SankNotes - Subject</title>
+        <title>{siteConfig.productName} - Subject</title>
       </Head>
       <div class="classes flex justify-around flex-wrap">
         <div class="cluss" style={{margin : '1rem 0rem'}}>

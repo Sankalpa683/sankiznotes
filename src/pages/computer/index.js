@@ -7,11 +7,12 @@ import Script from 'next/script';
 import Image from 'next/image';
 import Nav from '../nav.js'
 import Footer from '../footer.js'
+import { siteConfig } from '@/config/siteConfig';
 
 const website = () => {
   return (
     <div>
-      <Head><title>SankNote - Notes</title>
+      <Head><title>{siteConfig.productName} - Notes</title>
       </Head>
       <Nav/><br></br><br></br><br></br>
         <div className={styles.widgets} >
@@ -133,7 +134,7 @@ const website = () => {
             <div class="mb-6 md:mb-0">
                 <Link href="./" class="flex items-center">
                     <img src="https://cdn-icons-png.flaticon.com/512/4021/4021693.png" class="mr-3 h-8" alt="FlowBite Logo" />
-                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">SankNotes</span>
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">{siteConfig.productName}</span>
                 </Link>
             </div>
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -174,7 +175,7 @@ const website = () => {
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
-            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">Copyright © 2023 <Link href="https://flowbite.com" class="hover:underline">SankNotes™</Link>. All Rights Reserved.
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">Copyright © 2023 <Link href="https://flowbite.com" class="hover:underline">{siteConfig.productName}</Link>. All Rights Reserved.
             </span>
             <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
                 <Link href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">

@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import Script from 'next/script';
 import Image from 'next/image';
+import { siteConfig } from '@/config/siteConfig';
 
 const wow = () => {
   return (
@@ -13,8 +14,8 @@ const wow = () => {
 <nav class="border-gray-200 fixed w-full z-20 top-0 left-0 border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="/logo.png" class="h-8" alt="SanknotesLogo" />
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">SankNotes</span>
+        <img src="/logo.png" class="h-8" alt="MozeeeNotesLogo" />
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">{siteConfig.productName}</span>
     </a>
     <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
       <ul class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
@@ -44,7 +45,7 @@ const wow = () => {
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
   <a href="/" class="flex items-center justify-center mx-0">
       <img src="https://cdn-icons-png.flaticon.com/512/4021/4021693.png" class="h-8 mr-3"></img>
-      <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">SankNotes</span>
+      <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">{siteConfig.productName}</span>
   </a>
   <div class="flex md:order-2" style={{position: 'relative'}} className={styles.tosee}>
     <a href='/notification'>

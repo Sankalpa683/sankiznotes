@@ -7,12 +7,13 @@ import Script from 'next/script';
 import Image from 'next/image';
 import Nav from './nav.js'
 import Footer from './footer.js'
+import { siteConfig } from '@/config/siteConfig';
 
 
 const website = () => {
   return (
     <div>
-      <Head><title>SankNote - About Me</title>
+      <Head><title>{siteConfig.productName} - About Me</title>
       </Head>
       <Nav/><br></br><br></br><br></br>
       <section class="flex items-center bg-stone-100 xl:h-screen font-poppins dark:bg-gray-800 ">
@@ -31,7 +32,7 @@ const website = () => {
                                     <path
                                         d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z">
                                     </path>
-                                </svg> Sankalpa ( AKA Sankk ) Dahal - Owner of SankNotes
+                                </svg> Sankalpa ( AKA Sankk ) Dahal - Owner of {siteConfig.productName}
                             </p>
                         </div>
                     </div>
@@ -44,7 +45,7 @@ const website = () => {
                         </h1>
                     </div>
                     <p class="mb-6 text-base leading-7 text-gray-500 dark:text-gray-400">
-                        Welcome to Sank Notes, your one-stop destination for academic excellence. Sank Notes is more than just a website; it's an initiative dedicated to enhancing the educational journey of Class 12 NEB students. Founded by Sankalpa Dahal, Sank Notes is committed to providing high-quality study materials, resources, and support to help students excel in their academic pursuits.
+                        Welcome to {siteConfig.productName}, your one-stop destination for academic excellence. {siteConfig.productName} is more than just a website; it's an initiative dedicated to enhancing the educational journey of Class 12 NEB students. Founded by Sankalpa Dahal, {siteConfig.productName} is committed to providing high-quality study materials, resources, and support to help students excel in their academic pursuits.
                     </p>
                     <div class="pl-4 mb-6 border-l-4 border-blue-500 ">
                         <span class="text-sm text-gray-600 uppercase dark:text-gray-400">Our</span>
@@ -53,7 +54,7 @@ const website = () => {
                         </h1>
                     </div>
                     <p class="mb-6 text-base leading-7 text-gray-500 dark:text-gray-400">
-                    At Sank Notes, we believe that education is the cornerstone of personal and societal progress. Our mission is to make quality educational resources accessible to all Class 12 NEB students, regardless of their background or geographical location. We strive to empower students with the knowledge and tools they need to succeed in their academic endeavors and beyond.</p>
+                    At {siteConfig.productName}, we believe that education is the cornerstone of personal and societal progress. Our mission is to make quality educational resources accessible to all Class 12 NEB students, regardless of their background or geographical location. We strive to empower students with the knowledge and tools they need to succeed in their academic endeavors and beyond.</p>
                     {/* <a href="#"
                         class="px-4 py-2 text-gray-100 bg-blue-500 rounded dark:bg-blue-400 dark:hover:bg-blue-500 hover:bg-blue-600">
                         Learn more
@@ -68,7 +69,7 @@ const website = () => {
             <div class="mb-6 md:mb-0">
                 <a href="/" class="flex items-center">
                     <img src="https://cdn-icons-png.flaticon.com/512/4021/4021693.png" class="mr-3 h-8" alt="FlowBite Logo" />
-                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">SankNotes</span>
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">{siteConfig.productName}</span>
                 </a>
             </div>
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -109,7 +110,7 @@ const website = () => {
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
-            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="/" class="hover:underline">SankNotes™</a>. All Rights Reserved.
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="/" class="hover:underline">{siteConfig.productName}</a>. All Rights Reserved.
             </span>
             <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
                 <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">

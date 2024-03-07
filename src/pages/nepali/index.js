@@ -7,11 +7,12 @@ import Script from 'next/script';
 import Image from 'next/image';
 import Nav from '../nav.js';
 import Footer from '../footer.js';
+import { siteConfig } from '@/config/siteConfig';
 
 const website = () => {
   return (
     <div>
-      <Head><title>SankNote - Notes</title>
+      <Head><title>{siteConfig.productName} - Notes</title>
       </Head>
 
 <Nav/><br></br><br></br><br></br>  
@@ -57,7 +58,7 @@ const website = () => {
             /> */}
           </div>
           <div className={styles.header_text}>
-            <h1>Welcome to SankNotes</h1>
+            <h1>Welcome to {siteConfig.productName}</h1>
           </div>
           <div className={styles.paragraph}>
           <p><b>Sank Notes</b> by Sankalpa Dahal is an initative which provides <b>Notes, Notices, Syllabus, Question Answer and other Study Materials</b>, <br/>Resources for <b>Class 12 NEB Students</b>,etc.</p>

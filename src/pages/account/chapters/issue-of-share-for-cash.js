@@ -1,12 +1,13 @@
 import React from 'react'
 import Head from 'next/head'
+import { siteConfig } from '@/config/siteConfig'
 
 function issue_cash() {
   return (
     
     <div class='container mx-auto px-5 py-5'>
         <Head>
-            <title>SankNotes - Issue of Share for Other Than Cash | Class 12 Account</title>
+            <title>{siteConfig.productName} - Issue of Share for Other Than Cash | Class 12 Account</title>
         </Head>
     <br></br><br></br><br></br>
         <div class='p-3'>
