@@ -82,6 +82,9 @@
 }
 /* widget ends */
 /* chapters starts */
+.chapter_context{
+    padding: 0rem 1rem;
+}
 .chapters{
   display: flex;
   justify-content: center;
