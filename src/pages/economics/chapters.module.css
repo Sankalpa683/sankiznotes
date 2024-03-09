@@ -83,7 +83,7 @@
 /* widget ends */
 /* chapters starts */
 .chapter_context{
-    padding: 0rem 1rem;
+    margin: 0rem 1rem;
 }
 .chapters{
   display: flex;
