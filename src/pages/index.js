@@ -10,6 +10,30 @@ import Footer from './footer.js'
 import Class from './component/class.js'
 import { siteConfig } from '@/config/siteConfig';
 
+export const metadata = {
+  openGraph: {
+    title: 'MozeeeNotes - Comprehensive Study Notes for NEB 12th Grade Students in Nepal',
+    description: 'MozeeeNotes helps 12th Grade Student to Download & study FREE, high-quality 12th Grade Notes for ALL NEB subjects in Nepal! Ace your NEB 12th Grade exams with MozeeeNotes. Master key concepts, prepare for exams, and excel with Mozeeenotes. Get comprehensive study materials, notes, and resources tailored for students in Nepal at mozeee.com',
+    url: 'mozeee.com',
+    siteName: 'MozeeeNotes',
+    images: [
+      {
+        url: 'logo.png', // Must be an absolute URL
+        width: 800,
+        height: 600,
+      },
+      {
+        url: 'logo.png', // Must be an absolute URL
+        width: 1800,
+        height: 1600,
+        alt: 'MozeeeNotes Logo',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+}
+
 const website = () => {
   return (
     <div>
