@@ -27,7 +27,7 @@ const website = () => {
                 <Link href='/social'><h2>Social</h2></Link>
             </div>
             <div className={styles.widget_account}>
-                <Link href='/economics'><h2>Account</h2></Link>
+                <Link href='/account'><h2>Account</h2></Link>
             </div>
             <div className={styles.widget_account}>
                 <Link href='/english'><h2>English</h2></Link>
