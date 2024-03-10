@@ -8,7 +8,7 @@ function helloworld() {
   return (
     <div>
         <Head>
-            <title>Economics - Cost Curves | MozeeeNotes</title>
+            <title>Economics - Banking and Monetary Policy | MozeeeNotes</title>
         </Head>
         <Nav/>
         <br></br><br></br><br></br>
@@ -45,7 +45,7 @@ function helloworld() {
         
             </div><br></br>
             <div className='heaading_text'>
-                <h1 class={styles.heading}>Cost Curves - Class 12</h1>
+                <h1 class={styles.heading}>Banking and Monetary Policy - Class 12</h1>
             </div>
             <div className={styles.upload_time}>
             <iframe src="https://drive.google.com/file/d/1CSZu8wB7AdEzxRaH6H5hf5Dm6XKzeddu/preview" width="100%" height="780" allow="autoplay"></iframe>
