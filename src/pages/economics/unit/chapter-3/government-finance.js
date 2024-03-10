@@ -8,7 +8,7 @@ function helloworld() {
   return (
     <div>
         <Head>
-            <title>Economics - International Trade | MozeeeNotes</title>
+            <title>Economics - Government Finance | MozeeeNotes</title>
         </Head>
         <Nav/>
         <br></br><br></br><br></br>
@@ -45,7 +45,7 @@ function helloworld() {
         
             </div><br></br>
             <div className='heaading_text'>
-                <h1 class={styles.heading}>International Trade - Class 12</h1>
+                <h1 class={styles.heading}>Government Finance - Class 12</h1>
             </div>
             <div className={styles.upload_time}>
             <iframe src="https://drive.google.com/file/d/1CTFPFua5F_w8VSqMCR3Wtw8LU1xf0Y-y/preview" width="100%" height="780" allow="autoplay"></iframe>
