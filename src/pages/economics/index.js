@@ -18,7 +18,7 @@ const website = () => {
  <Nav/><br></br><br></br><br></br>    
         <div className={styles.widgets} >
             <div className={styles.widget_account}>
-                <Link href='/account'><h2>Account</h2></Link>
+                <Link href='/computer'><h2>Computer</h2></Link>
             </div>
             <div className={styles.widget_account}>
                 <Link href='/nepali'><h2>Nepali</h2></Link>
@@ -27,7 +27,7 @@ const website = () => {
                 <Link href='/social'><h2>Social</h2></Link>
             </div>
             <div className={styles.widget_account}>
-                <Link href='/computer'><h2>Computer</h2></Link>
+                <Link href='/economics'><h2>Account</h2></Link>
             </div>
             <div className={styles.widget_account}>
                 <Link href='/english'><h2>English</h2></Link>
