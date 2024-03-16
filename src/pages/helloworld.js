@@ -11,7 +11,7 @@ function footer() {
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
         </Head>
         {/* <Nav/> */}
-        {/* <div className={styles.haha}>
+         <div className={styles.haha}>
           <Subject /><br></br><br></br><br></br>
           <div className={styles.video_div}>
             <img src='https://i.ytimg.com/vi/DZ_MYgSBnH8/hq720.jpg?sqp=-oaymwEcCK4FEIIDSEbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCXG8L7HFE9QWp5JfBVSry_o_oTPw'>
@@ -33,7 +33,7 @@ function footer() {
               </div>
             </div>
           </div><hr></hr><  
-        </div> */}
+        </div> 
        <footer className={styles.footer}>
           <div className={styles.footers}>  
             <div className={styles.footer_home_icon}>
