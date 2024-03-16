@@ -1,4 +1,4 @@
-import { Main } from 'next/document'
+import Main from 'next/document'
 import React from 'react'
 import styles from './notes.module.css';
 import Link from 'next/link';
