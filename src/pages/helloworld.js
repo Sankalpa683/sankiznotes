@@ -1,6 +1,6 @@
 import React from 'react'
 import Nav from './nav.js'
-import Head from 'next/head.js'
+import Head from 'next/head'
 import styles from './footers.module.css'
 import Subject from './subject.js'
 
