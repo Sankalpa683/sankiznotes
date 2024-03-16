@@ -14,6 +14,7 @@ const website = () => {
   return (
     <div>
       <Head><title>{siteConfig.productName} - About Me</title
+  <meta name="google-site-verification" content="hgKlR-gh1kqW6e6_8xl2kSzCsHtRMiGGrqAlQAHl1w4" />
             <meta name="description" content="MozeeeNotes helps 12th Grade Student to Download & study FREE, high-quality 12th Grade Notes for ALL NEB subjects in Nepal! Ace your NEB 12th Grade exams with MozeeeNotes. Master key concepts, prepare for exams, and excel with Mozeeenotes. Get comprehensive study materials, notes, and resources tailored for students in Nepal at mozeee.com" />
         <meta name="keywords" content="NEB, Nepal, 12th Grade, Study Notes, Exam Preparation, MozeeeNotes" />
         <meta property="og:title" content="MozeeeNotes - Comprehensive Study Notes for NEB 12th Grade Students in Nepal" />
