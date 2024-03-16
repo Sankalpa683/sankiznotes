@@ -10,7 +10,6 @@ function footer() {
         <Head>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
         </Head>
-        {/* <Nav/> */}
          <div className={styles.haha}>
           <Subject /><br></br><br></br><br></br>
           <div className={styles.video_div}>
@@ -32,27 +31,8 @@ function footer() {
               <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
               </div>
             </div>
-          </div><hr></hr><  
+          </div><hr></hr>  
         </div> 
-       <footer className={styles.footer}>
-          <div className={styles.footers}>  
-            <div className={styles.footer_home_icon}>
-              <a href='/'><i class="fa fa-home" aria-hidden="true" className='now_page'></i></a>
-            </div>
-            <div className={styles.footer_book_icon}>
-              <a href='/subject'><i class="fa fa-book" aria-hidden="true"></i></a>
-            </div>
-            <div className={styles.footer_plus_icon}>
-              <a href='/contact'><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
-            </div>
-            <div className={styles.footer_about_icon}>
-              <a href='/about'><i class="fa fa-user-circle" aria-hidden="true"></i></a>
-            </div>
-            <div className={styles.footer_calendar_icon}>
-              <a href='https://sankalpa683.github.io/notes/' target='_blank'><i class="fa fa-calendar" aria-hidden="true"></i></a>
-            </div>
-          </div>
-        </footer> 
     </div>
   )
 }
