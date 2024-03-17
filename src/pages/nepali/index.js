@@ -143,6 +143,7 @@ const website = () => {
               </button></Link>
             </div>
           </div>
+          </div>
         <br></br><br></br><br></br>
         <Footer/>
     </div>
