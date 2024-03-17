@@ -57,7 +57,7 @@ const website = () => {
               <h1>#1</h1>
             </div>
             <div className={styles.chapter_context_name}>
-              <h2>Database Management System</h2>
+              <h2>आमाको सपना</h2>
             </div>
             <div className={styles.chapter_context_button}>
               <Link href='computer/chapters/database-management-system'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
@@ -70,7 +70,7 @@ const website = () => {
               <h1>#2</h1>
             </div>
             <div className={styles.chapter_context_name}>
-              <h2>Data Communications & Networking</h2>
+              <h2>विरहिणी दमयन्ती</h2>
             </div>
             <div className={styles.chapter_context_button}>
               <Link href='computer/chapters/data-communications-networking'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
@@ -83,7 +83,7 @@ const website = () => {
               <h1>#3</h1>
             </div>
             <div className={styles.chapter_context_name}>
-              <h2>Web Technology</h2>
+              <h2>घनघस्याको उकालो काट्ता</h2>
             </div>
             <div className={styles.chapter_context_button}>
               <Link href='computer/chapters/web-technology'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
@@ -96,7 +96,7 @@ const website = () => {
               <h1>#4</h1>
             </div>
             <div className={styles.chapter_context_name}>
-              <h2>Programming in C</h2>
+              <h2>व्यावसायिक पत्र</h2>
             </div>
             <div className={styles.chapter_context_button}>
               <Link href='computer/chapters/programming-in-c'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
@@ -109,7 +109,7 @@ const website = () => {
               <h1>#5</h1>
             </div>
             <div className={styles.chapter_context_name}>
-              <h2>Object Oriented Programming</h2>
+              <h2>एक चिहान</h2>
             </div>
             <div className={styles.chapter_context_button}>
               <Link href='computer/chapters/oop'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
@@ -122,7 +122,7 @@ const website = () => {
               <h1>#6</h1>
             </div>
             <div className={styles.chapter_context_name}>
-              <h2>Software Access Model</h2>
+              <h2>स्टिफन विलियम हकिङ</h2>
             </div>
             <div className={styles.chapter_context_button}>
               <Link href='computer/chapters/software-access-model'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
@@ -135,7 +135,7 @@ const website = () => {
               <h1>#7</h1>
             </div>
             <div className={styles.chapter_context_name}>
-              <h2>Recent Trends in Technology</h2>
+              <h2>हामीलाई बोलाउँछन् हिमचुली</h2>
             </div>
             <div className={styles.chapter_context_button}>
               <Link href='computer/chapters/recent-trends-in-technology'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
@@ -143,6 +143,72 @@ const website = () => {
               </button></Link>
             </div>
           </div>
+          <div className={styles.chapter_context}>
+            <div className={styles.chapter_context_number}>
+              <h1>#8</h1>
+            </div>
+            <div className={styles.chapter_context_name}>
+              <h2>मातृत्व</h2>
+            </div>
+            <div className={styles.chapter_context_button}>
+              <Link href='computer/chapters/recent-trends-in-technology'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+                Notes
+              </button></Link>
+            </div>
+          </div>
+          <div className={styles.chapter_context}>
+            <div className={styles.chapter_context_number}>
+              <h1>#9</h1>
+            </div>
+            <div className={styles.chapter_context_name}>
+              <h2>गोर्खे</h2>
+            </div>
+            <div className={styles.chapter_context_button}>
+              <Link href='computer/chapters/recent-trends-in-technology'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+                Notes
+              </button></Link>
+            </div>
+          </div>
+          <div className={styles.chapter_context}>
+            <div className={styles.chapter_context_number}>
+              <h1>#10</h1>
+            </div>
+            <div className={styles.chapter_context_name}>
+              <h2>नेपाली पहिचान</h2>
+            </div>
+            <div className={styles.chapter_context_button}>
+              <Link href='computer/chapters/recent-trends-in-technology'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+                Notes
+              </button></Link>
+            </div>
+          </div>
+          <div className={styles.chapter_context}>
+            <div className={styles.chapter_context_number}>
+              <h1>#11</h1>
+            </div>
+            <div className={styles.chapter_context_name}>
+              <h2>सहकारी</h2>
+            </div>
+            <div className={styles.chapter_context_button}>
+              <Link href='computer/chapters/recent-trends-in-technology'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+                Notes
+              </button></Link>
+            </div>
+          </div>
+          <div className={styles.chapter_context}>
+            <div className={styles.chapter_context_number}>
+              <h1>#12</h1>
+            </div>
+            <div className={styles.chapter_context_name}>
+              <h2>जीवन मार्ग</h2>
+            </div>
+            <div className={styles.chapter_context_button}>
+              <Link href='computer/chapters/recent-trends-in-technology'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+                Notes
+              </button></Link>
+            </div>
+          </div>
+          
           </div>
         <br></br><br></br><br></br>
         <Footer/>
