@@ -124,7 +124,7 @@ const website = () => {
               <h2>सामजिक पहिचान र विविधता</h2>
             </div>
             <div className={styles.chapter_context_button}>
-              <Link href='social/chapter-7><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+              <Link href='social/chapter-7'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
                 Notes
               </button></Link>
             </div>
