@@ -60,7 +60,7 @@ const website = () => {
               <h2>सामाजिक अध्ययन तथा जीवनोपयोगी शिक्षाको अर्थ</h2>
             </div>
             <div className={styles.chapter_context_button}>
-              <Link href='computer/chapters/database-management-system'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+              <Link href='social/chapter-1'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
                 Notes
               </button></Link>
             </div>
@@ -73,7 +73,7 @@ const website = () => {
               <h2>जीवनोपयोगी सिपका रूपमा डिजिटल सिपहरू तथा सामान्य अनुसन्धान सिपहरू</h2>
             </div>
             <div className={styles.chapter_context_button}>
-              <Link href='computer/chapters/data-communications-networking'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+              <Link href='social/chapter-2'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
                 Notes
               </button></Link>
             </div>
@@ -86,7 +86,7 @@ const website = () => {
               <h2>जीवनोपयोगी सिप</h2>
             </div>
             <div className={styles.chapter_context_button}>
-              <Link href='computer/chapters/web-technology'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+              <Link href='social/chapter-3'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
                 Notes
               </button></Link>
             </div>
@@ -99,7 +99,7 @@ const website = () => {
               <h2>समाजको विकास र दर्शन</h2>
             </div>
             <div className={styles.chapter_context_button}>
-              <Link href='computer/chapters/programming-in-c'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+              <Link href='social/chapter-4'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
                 Notes
               </button></Link>
             </div>
@@ -112,7 +112,7 @@ const website = () => {
               <h2>भूगोल र सामाजिक जीवन</h2>
             </div>
             <div className={styles.chapter_context_button}>
-              <Link href='computer/chapters/oop'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+              <Link href='social/chapter-5'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
                 Notes
               </button></Link>
             </div>
@@ -125,7 +125,7 @@ const website = () => {
               <h2>नेपालको इतिहास</h2>
             </div>
             <div className={styles.chapter_context_button}>
-              <Link href='computer/chapters/software-access-model'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+              <Link href='social/chapter-6'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
                 Notes
               </button></Link>
             </div>
@@ -138,7 +138,7 @@ const website = () => {
               <h2>सामजिक पहिचान र विविधता</h2>
             </div>
             <div className={styles.chapter_context_button}>
-              <Link href='computer/chapters/recent-trends-in-technology'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+              <Link href='social/chapter-7><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
                 Notes
               </button></Link>
             </div>
@@ -151,7 +151,7 @@ const website = () => {
               <h2>संविधान र नागरिक सचेतना</h2>
             </div>
             <div className={styles.chapter_context_button}>
-              <Link href='computer/chapters/recent-trends-in-technology'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+              <Link href='social/chapter-8'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
                 Notes
               </button></Link>
             </div>
@@ -164,7 +164,7 @@ const website = () => {
               <h2>सहरीकरण र बसाइ“सराइ</h2>
             </div>
             <div className={styles.chapter_context_button}>
-              <Link href='computer/chapters/recent-trends-in-technology'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+              <Link href='social/chapter-9'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
                 Notes
               </button></Link>
             </div>
@@ -177,7 +177,7 @@ const website = () => {
               <h2>अर्थतन्त्र र विकास</h2>
             </div>
             <div className={styles.chapter_context_button}>
-              <Link href='computer/chapters/recent-trends-in-technology'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+              <Link href='social/chapter-10'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
                 Notes
               </button></Link>
             </div>
@@ -190,7 +190,7 @@ const website = () => {
               <h2>शिक्षा र सामाजिक विकास</h2>
             </div>
             <div className={styles.chapter_context_button}>
-              <Link href='computer/chapters/recent-trends-in-technology'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+              <Link href='social/chapter-11'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
                 Notes
               </button></Link>
             </div>
