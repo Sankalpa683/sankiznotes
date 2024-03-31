@@ -8,7 +8,7 @@ function helloworld() {
   return (
     <div>
         <Head>
-            <title>Unit-11 Economy and Development Notes | MozeeeNotes</title>
+            <title>Unit-12 Economy and Development Notes | MozeeeNotes</title>
         </Head>
         <Nav/>
         <br></br><br></br><br></br>
@@ -42,7 +42,7 @@ function helloworld() {
         
             </div><br></br>
             <div className='heaading_text'>
-                <h1 class={styles.heading}>Chapter-11 शिक्षा र सामाजिक विकास - Social Studies </h1>
+                <h1 class={styles.heading}>Chapter-12 शिक्षा र सामाजिक विकास - Social Studies </h1>
             </div>
             <div className={styles.upload_time}>
             <iframe src="https://cdn.gurubaa.com/wp-content/uploads/2023/04/18070422/UNit-11-Economy-and-Development.pdf" width="100%" height="780" allow="autoplay"></iframe>
