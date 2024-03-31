@@ -42,7 +42,7 @@ function helloworld() {
         
             </div><br></br>
             <div className='heaading_text'>
-                <h1 class={styles.heading}>Chapter-6 संविधान र नागरिक सचेतना - Social Studies </h1>
+                <h1 class={styles.heading}>Chapter-8 संविधान र नागरिक सचेतना - Social Studies </h1>
             </div>
             <div className={styles.upload_time}>
             <iframe src="https://cdn.gurubaa.com/wp-content/uploads/2023/04/13104028/Unit-8-Constitution-and-Civic-Awareness.pdf" width="100%" height="780" allow="autoplay"></iframe>
