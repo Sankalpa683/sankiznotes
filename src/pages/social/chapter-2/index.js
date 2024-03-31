@@ -8,7 +8,7 @@ function helloworld() {
   return (
     <div>
         <Head>
-            <title>Unit-2 Digital and General Research Skills as Useful Life Skills (जीवनपयोगी सिपको रुपमा डिजिटल तथा सामान्य अनुसन्धान) सिप Class 12 Social Studies and Life Skills Notes | MozeeeNotes</title>
+            <title>Unit-2 Digital and General Research Skills as Useful Life Skills Class 12 Social Studies and Life Skills Notes | MozeeeNotes</title>
         </Head>
         <Nav/>
         <br></br><br></br><br></br>
@@ -45,7 +45,7 @@ function helloworld() {
         
             </div><br></br>
             <div className='heaading_text'>
-                <h1 class={styles.heading}>ObjectUnit-2 Digital and General Research Skills as Useful Life Skills (जीवनपयोगी सिपको रुपमा डिजिटल तथा सामान्य अनुसन्धान) सिप Class 12 Social Studies and Life Skills Notes</h1>
+                <h1 class={styles.heading}>Chapter-2 जीवनपयोगी सिपको रुपमा डिजिटल तथा सामान्य अनुसन्धान सिप - Social Studies </h1>
             </div>
             <div className={styles.upload_time}>
             <iframe src="https://cdn.gurubaa.com/wp-content/uploads/2023/04/11095752/Unit-2-Digital-and-General-Research-Skills-as-Useful-Life-Skills-.pdf" width="100%" height="780" allow="autoplay"></iframe>
