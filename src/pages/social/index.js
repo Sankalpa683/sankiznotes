@@ -16,20 +16,6 @@ const website = () => {
       </Head>
 
 <Nav/><br></br><br></br><br></br>  
-{/* <div className={styles.myClass}>
-          <div className='nav-logo'>
-              <h1>Sank<span>Notes</span> </h1>
-          </div>
-          <div className={styles.navlinks}>
-            <a href='/'>Home</a>
-              <a href='/sank'>Notes</a>
-              <a href='#subject'>Subject</a>
-              <a href=''>Schedule</a>
-              <a href=''>About</a>
-
-          </div>
-          <a className="bg-blue-400 text-white font-bold py-1 px-2 rounded" href=''>Get started</a>
-        </div> */}
         <div className={styles.widgets} >
             <div className={styles.widget_account}>
                 <Link href='/account'><h2>Account</h2></Link>
@@ -53,18 +39,18 @@ const website = () => {
             <h1>Chapters</h1>
           </div>
           <div className={styles.chapter_context}>
-            <div className={styles.chapter_context_number}>
-              <h1>#1</h1>
-            </div>
-            <div className={styles.chapter_context_name}>
-              <h2>सामाजिक अध्ययन तथा जीवनोपयोगी शिक्षाको अर्थ</h2>
-            </div>
-            <div className={styles.chapter_context_button}>
-              <Link href='social/chapter-1'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
-                Notes
-              </button></Link>
-            </div>
+          <div className={styles.chapter_context_number}>
+            <h1>#1</h1>
           </div>
+          <div className={styles.chapter_context_name}>
+            <h2>सामाजिक अध्ययन तथा जीवनोपयोगी शिक्षाको अर्थ</h2>
+          </div>
+          <div className={styles.chapter_context_button}>
+            <Link href='social/chapter-1'><button className="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+              Notes
+            </button></Link>
+          </div>
+        </div>
           <div className={styles.chapter_context}>
             <div className={styles.chapter_context_number}>
               <h1>#2</h1>
