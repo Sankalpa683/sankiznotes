@@ -73,7 +73,7 @@ const website = () => {
               <h2>विरहिणी दमयन्ती</h2>
             </div>
             <div className={styles.chapter_context_button}>
-              <Link href='nepali/chapter-3'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+              <Link href='nepali/chapter-2'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
                 Notes
               </button></Link>
             </div>
