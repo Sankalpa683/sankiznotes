@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import YoutubeSearch from '../components/YoutubeSearch';
+import YoutubeSearch from '../component/YoutubeSearch';
 
 export default function Home() {
   return (
