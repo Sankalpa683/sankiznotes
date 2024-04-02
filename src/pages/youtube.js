@@ -6,7 +6,6 @@ export default function Home() {
     <div className="container mx-auto">
       <Head>
         <title>YouTube Search App</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
