@@ -48,9 +48,15 @@ const website = () => {
             </div>
             <div className={styles.chapter_context_button}>
               <Link href='/account/chapters/company-formation'>
-              <button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
-                Notes
-              </button>
+              <div class="flex flex-wrap mx-4">
+                <button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+                  Notes
+                </button>
+                <button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+                  <i className="fas fa-video"></i>
+                </button>
+              </div>
+              
               </Link>
             </div>
           </div>
@@ -62,9 +68,16 @@ const website = () => {
               <h2>Issue of Cash for Share</h2>
             </div>
             <div className={styles.chapter_context_button}>
-              <Link href='/account/chapters/issue-of-share-for-cash'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
-                Notes
-              </button></Link>
+              <Link href='/account/chapters/issue-of-share-for-cash'>
+              <div class="flex flex-wrap mx-4">
+                <button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+                  Notes
+                </button>
+                <button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+                  <i className="fas fa-video"></i>
+                </button>
+              </div>
+            </Link>
               
             </div>
           </div>
@@ -77,9 +90,14 @@ const website = () => {
             </div>
             <div className={styles.chapter_context_button}>
               <Link href='/account/chapters/forfeiture-and-re-issue-of-shares'>
-              <button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
-                Notes
-              </button>
+              <div class="flex flex-wrap mx-4">
+                <button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+                  Notes
+                </button>
+                <button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+                  <i className="fas fa-video"></i>
+                </button>
+              </div>
               </Link>
               
             </div>
@@ -94,9 +112,14 @@ const website = () => {
             </div>
             <div className={styles.chapter_context_button}>
               <Link href='/account/chapters/issue-of-share-for-other-than-cash'>
-              <button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
-                Notes
-              </button>
+              <div class="flex flex-wrap mx-4">
+                <button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+                  Notes
+                </button>
+                <button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+                  <i className="fas fa-video"></i>
+                </button>
+              </div>
   
               </Link>
             </div>
