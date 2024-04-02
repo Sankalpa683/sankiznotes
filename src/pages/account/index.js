@@ -13,6 +13,7 @@ const website = () => {
   return (
     <div>
       <Head><title>{siteConfig.productName} - Notes</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
       </Head>
 
 <Nav/><br></br><br></br><br></br>    
@@ -121,7 +122,7 @@ const website = () => {
             </div>
             <div className={styles.chapter_context_button}>
               <button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
-                Notes
+                <i className="fas fa-video"></i>
               </button>
             </div>
           </div>
