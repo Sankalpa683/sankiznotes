@@ -1,19 +1,42 @@
-import Head from 'next/head';
-import Search from './api/search';
+// pages/youtube.js
+import React, { useState } from 'react';
+import axios from 'axios';
 
-export default function Home() {
+const Youtube = () => {
+  const [videos, setVideos] = useState([]);
+  const [query, setQuery] = useState('');
+
+  const handleSearch = async () => {
+    try {
+      const response = await axios.get(`/api/search?query=${encodeURIComponent(query)}`);
+      setVideos(response.data);
+    } catch (error) {
+      console.error('Error fetching videos:', error);
+    }
+  };
+
   return (
-    <br></br><br></br><br></br>
-    <div className="container mx-auto">
-      <Head>
-        <title>YouTube Search App</title>
-      </Head>
-
-      <main>
-        <h1 className="text-4xl font-bold text-center mt-8">YouTube Search App</h1>
-    <br></br>
-    <Search />
-      </main>
+    <div>
+      <h1>YouTube Search</h1>
+      <input type="text" value={query} onChange={(e) => setQuery(e.target.value)} />
+      <button onClick={handleSearch}>Search</button>
+      <div>
+        {videos.map((video) => (
+          <div key={video.id.videoId}>
+            <p>{video.snippet.title}</p>
+            <iframe
+              width="560"
+              height="315"
+              src={`https://www.youtube.com/embed/${video.id.videoId}`}
+              title={video.snippet.title}
+              frameBorder="0"
+              allowFullScreen
+            ></iframe>
+          </div>
+        ))}
+      </div>
     </div>
   );
-}
+};
+
+export default Youtube;
