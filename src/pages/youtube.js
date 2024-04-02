@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Search from '/api/Search';
+// import Search from '/api/Search';
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
 
       <main>
         <h1 className="text-4xl font-bold text-center mt-8">YouTube Search App</h1>
-        <Search />
+        // <Search />
       </main>
     </div>
   );
