@@ -1,21 +1,21 @@
+
 import axios from 'axios';
 
-const youtubeApiKey = "AIzaSyCdWFPMFOvYIuJjclMPtO9MhdXyUUln0Fk";  // Load from .env
-
 export default async function handler(req, res) {
-  const searchTerm = 'class 12 neb notes';
-  const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=${searchTerm}&key=${youtubeApiKey}`;
+  const { query } = req.query;
 
   try {
-    const response = await axios.get(url);
-    const videos = response.data.items.map(item => ({
-      id: item.id.videoId,
-      title: item.snippet.title,
-      thumbnail: item.snippet.thumbnails.medium.url,
-    }));
-    res.status(200).json(videos);
+    const response = await axios.get('https://www.googleapis.com/youtube/v3/search', {
+      params: {
+        part: 'snippet',
+        q: query,
+        key: 'AIzaSyCdWFPMFOvYIuJjclMPtO9MhdXyUUln0Fk', // Use your YouTube API key
+      },
+    });
+
+    res.status(200).json(response.data.items);
   } catch (error) {
-    console.error(error);
+    console.error('Error fetching videos:', error);
     res.status(500).json({ error: 'Failed to fetch videos' });
   }
 }
