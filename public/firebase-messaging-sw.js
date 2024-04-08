@@ -1,9 +1,9 @@
-// firebase-messaging-sw.js
+
 importScripts('https://www.gstatic.com/firebasejs/9.6.2/firebase-app.js');
 importScripts('https://www.gstatic.com/firebasejs/9.6.2/firebase-messaging.js');
 
 const firebaseConfig = {
-  // Your Firebase configuration
+
   apiKey: "AIzaSyAHI6AQh4Ltujvmkf2VTo33QYmif5O6V2g",
   authDomain: "alien-craft-362813.firebaseapp.com",
   projectId: "alien-craft-362813",
@@ -18,5 +18,5 @@ const messaging = firebase.messaging();
 
 messaging.onBackgroundMessage((payload) => {
   console.log('[firebase-messaging-sw.js] Received background message ', payload);
-  // Customize this to show a notification
+
 });
