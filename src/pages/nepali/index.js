@@ -60,7 +60,7 @@ const website = () => {
               <h2>आमाको सपना</h2>
             </div>
             <div className={styles.chapter_context_button}>
-              <Link href='nepali/chapter-1'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+              <Link href='https://nebplus2notes.com/class-12/nepali/aama-ko-sapana'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
                 Notes
               </button></Link>
             </div>
@@ -73,7 +73,7 @@ const website = () => {
               <h2>विरहिणी दमयन्ती</h2>
             </div>
             <div className={styles.chapter_context_button}>
-              <Link href='nepali/chapter-2'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+              <Link href='https://nebplus2notes.com/class-12/nepali/birhidi-damyenti'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
                 Notes
               </button></Link>
             </div>
@@ -86,7 +86,7 @@ const website = () => {
               <h2>घनघस्याको उकालो काट्ता</h2>
             </div>
             <div className={styles.chapter_context_button}>
-              <Link href='nepali/chapter-3'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+              <Link href='https://nebplus2notes.com/class-12/ghanghasyako-ukalo-kattha/'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
                 Notes
               </button></Link>
             </div>
@@ -99,7 +99,7 @@ const website = () => {
               <h2>व्यावसायिक पत्र</h2>
             </div>
             <div className={styles.chapter_context_button}>
-              <Link href='nepali/chapter-4'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+              <Link href='https://nebplus2notes.com/class-12/nepali/bebasahik-chithi'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
                 Notes
               </button></Link>
             </div>
@@ -112,7 +112,7 @@ const website = () => {
               <h2>एक चिहान</h2>
             </div>
             <div className={styles.chapter_context_button}>
-              <Link href='nepali/chapter-5'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+              <Link href='https://nebplus2notes.com/class-12/nepali/yek-chihan'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
                 Notes
               </button></Link>
             </div>
@@ -125,7 +125,7 @@ const website = () => {
               <h2>स्टिफन विलियम हकिङ</h2>
             </div>
             <div className={styles.chapter_context_button}>
-              <Link href='nepali/chapter-6'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+              <Link href='https://nebplus2notes.com/class-12/nepali/stephen-william-hawking'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
                 Notes
               </button></Link>
             </div>
@@ -138,7 +138,7 @@ const website = () => {
               <h2>हामीलाई बोलाउँछन् हिमचुली</h2>
             </div>
             <div className={styles.chapter_context_button}>
-              <Link href='nepali/chapter-7'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+              <Link href='https://nebplus2notes.com/class-12/nepali/hamilai-bolauxan-himchuli'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
                 Notes
               </button></Link>
             </div>
@@ -151,7 +151,7 @@ const website = () => {
               <h2>मातृत्व</h2>
             </div>
             <div className={styles.chapter_context_button}>
-              <Link href='nepali/chapter-8'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+              <Link href='https://nebplus2notes.com/class-12/nepali/matrito'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
                 Notes
               </button></Link>
             </div>
@@ -164,7 +164,7 @@ const website = () => {
               <h2>गोर्खे</h2>
             </div>
             <div className={styles.chapter_context_button}>
-              <Link href='nepali/chapter-9'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+              <Link href='https://nebplus2notes.com/class-12/nepali/gorkhe'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
                 Notes
               </button></Link>
             </div>
@@ -177,7 +177,7 @@ const website = () => {
               <h2>नेपाली पहिचान</h2>
             </div>
             <div className={styles.chapter_context_button}>
-              <Link href='nepali/chapter-10'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+              <Link href='https://nebplus2notes.com/class-12/nepali/nepali-pahichan'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
                 Notes
               </button></Link>
             </div>
@@ -190,7 +190,7 @@ const website = () => {
               <h2>सहकारी</h2>
             </div>
             <div className={styles.chapter_context_button}>
-              <Link href='nepali/chapter-11'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
+              <Link href='https://nebplus2notes.com/class-12/nepali/sahakari'><button class="bg-blue-400 text-white font-bold py-2 px-4 rounded">
                 Notes
               </button></Link>
             </div>
