@@ -56,13 +56,13 @@ const website = () => {
                 </div>
                 <div class="w-full px-6 mb-10 lg:w-1/2 lg:mb-0 ">
                     <div class="pl-4 mb-6 border-l-4 border-blue-500 ">
-                        <span class="text-sm text-gray-600 uppercase dark:text-gray-400">Who we are?</span>
+                        <span class="text-sm text-gray-600 uppercase dark:text-gray-400">What are we?</span>
                         <h1 class="mt-2 text-3xl font-black text-gray-700 md:text-5xl dark:text-gray-300">
                             About Us
                         </h1>
                     </div>
                     <p class="mb-6 text-base leading-7 text-gray-500 dark:text-gray-400">
-                        Welcome to {siteConfig.productName}, your one-stop destination for academic excellence. {siteConfig.productName} is more than just a website; it's an initiative dedicated to enhancing the educational journey of Class 12 NEB students. Founded by Sankalpa Dahal, {siteConfig.productName} is committed to providing high-quality study materials, resources, and support to help students excel in their academic pursuits.
+                        <b>Hey there, fellow Grade 12 student!</b> Welcome to {siteConfig.productName}, your one-stop destination for academic excellence. We built {siteConfig.productName} because we know how frustrating it is to jump from website to website searching for notes. That's why we gather notes from different sources and put them all together in one easy-to-use spot. Plus, we always give credit where credit is due - you'll see exactly where each note came from.
                     </p>
                     <div class="pl-4 mb-6 border-l-4 border-blue-500 ">
                         <span class="text-sm text-gray-600 uppercase dark:text-gray-400">Our</span>
