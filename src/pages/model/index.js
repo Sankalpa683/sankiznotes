@@ -10,11 +10,7 @@ function subject() {
     <div>
       <Head>
         <title>{siteConfig.productName} - Subject</title>
-        <style>
-          .cluss{
-            height: 365px;
-          }
-        </style>
+        
       </Head>
   <br /><br /><br />
       <div class="classes flex justify-around flex-wrap">
