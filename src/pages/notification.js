@@ -39,7 +39,7 @@ function notification() {
                         <img src='/me.jpg'></img>
                     </div>
                     <div className={styles.notification_div_text}>
-                       <p><b>Class 12 </b>Exam is within {daysLeft <= 7 ? daysLeft + ' days' : 'a week'}. Check The calendar here</p> 
+                       <p><b>Class 12 </b>Exam is within {daysLeft}. Check The calendar here</p> 
                     </div>
                     <div className={styles.notification_div_app}>
                         <div className={styles.notification_div_color}></div>
