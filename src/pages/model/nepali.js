@@ -7,13 +7,13 @@ function helloworld() {
     <div>
         <Head>
             <title>Nepali - NEB Grade 12 Model Question Paper 2079 | MozeeeNotes</title>
-          <meta name="title" content="English NEB Grade 12 Model Question Paper 2079 2023, NEB Class 12  Question Answer 2079 2023 | Mozeee.com" />
-          <link href="https://mozeee.com/model-question/english" rel="canonical" />
+          <meta name="title" content="Nepali NEB Grade 12 Model Question Paper 2079 2023, NEB Class 12  Question Answer 2079 2023 | Mozeee.com" />
+          <link href="https://mozeee.com/model-question/nepali" rel="canonical" />
           <meta name="robots" content="index, follow" />
-          <meta property="og:url" content="https://mozeee.com/model-question/english" />
+          <meta property="og:url" content="https://mozeee.com/model-question/nepali" />
         <meta property="og:image" content="https://mozeee.com/logo.png" />
           <meta name="description" content="Here you will get clear and concise chapter-wise NEB Class 12 Model Questions to enhance your conceptual clarity, prepare for examinations, and achieve academic excellence." />
-          <meta property="og:title" content="English - NEB Grade 12 Model Question Paper 2079 | MozeeeNotes" />
+          <meta property="og:title" content="Nepali - NEB Grade 12 Model Question Paper 2079 | MozeeeNotes" />
           <meta name="og:description" content="Here you will get clear and concise chapter-wise NEB Class 12 Model Questions to enhance your conceptual clarity, prepare for examinations, and achieve academic excellence." />
           <meta name="keywords" content="NEB, Class 12 Model Questions, NEB class 12 model questions, model questions, Grade 12 model questions, class 12 notes, class 12 notes nepal, neb notes, model questions nepal, class 12 model questions nepal" />
       
@@ -52,7 +52,7 @@ function helloworld() {
                 <h1 class={styles.heading}>Nepali - NEB Grade 12 Model Question Paper 2079</h1>
             </div>
             <div className={styles.upload_time}>
-            <iframe src="https://drive.google.com/file/d/1T0R2QpayklBnmRVd5dJHl6GASxI6mU9A-tns/preview" width="100%" height="780" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1T0R2QpayklBnmRVd5dJHl6GASxI6mU9A/preview" width="100%" height="780" allow="autoplay"></iframe>
             </div>
         </div><br></br><br></br>
         <div>
