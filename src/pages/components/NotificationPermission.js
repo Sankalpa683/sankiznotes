@@ -10,7 +10,6 @@ const NotificationPermission = () => {
         const token = await messaging.getToken();
         console.log('Notification permission granted.');
         console.log('Token:', token);
-        // Send the token to your server for sending notifications
       } catch (error) {
         console.error('Error requesting notification permission:', error);
       }
