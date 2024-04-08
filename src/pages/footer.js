@@ -46,7 +46,7 @@ function footer() {
               <a href='/contact'><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
             </div>
             <div className={styles.footer_about_icon}>
-              <a href='/about'><i class="fa fa-user-circle" aria-hidden="true"></i></a>
+              <a href='/model'><i class="fa-solid fa-clipboard"></i></a>
             </div>
             <div className={styles.footer_calendar_icon}>
               <a href='https://sankalpa683.github.io/notes/' target='_blank'><i class="fa fa-calendar" aria-hidden="true"></i></a>
