@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head.js'
 import styles from './chapters.module.css';
+import Link from 'next/link'
 
 function helloworld() {
   return (
