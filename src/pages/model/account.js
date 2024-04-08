@@ -52,7 +52,7 @@ function helloworld() {
                 <h1 class={styles.heading}>Account - NEB Grade 12 Model Question Paper 2079</h1>
             </div>
             <div className={styles.upload_time}>
-            <iframe src="https://drive.google.com/file/d/1CUiye2lY3np_JWVxdiYDP4s9yW1O/preview" width="100%" height="780" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1CUiye2lY3np_JWVxdiYDP4s9yW1O-tns/preview" width="100%" height="780" allow="autoplay"></iframe>
             </div>
         </div><br></br><br></br>
         <div>
