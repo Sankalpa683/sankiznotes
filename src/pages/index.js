@@ -58,7 +58,7 @@ const website = () => {
         </div>
     </div>
 </section>
-      <div className="bg-white p-8 rounded-lg shadow-lg w-fit m-4>
+      <div className="bg-white p-8 rounded-lg shadow-lg w-fit m-4">
         <h1 className="text-3xl font-bold mb-4 text-center">Study Hard!</h1>
         <p className="text-xl mb-4 text-center">Class 12th NEB Exam is within</p>
         <div className="text-4xl font-bold text-center">{daysLeft} Days</div>
