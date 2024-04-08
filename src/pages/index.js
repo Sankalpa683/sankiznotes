@@ -1,5 +1,5 @@
 import Main from 'next/document'
-import React from 'react'
+import React, { useEffect, useState } from 'react';
 import styles from './notes.module.css';
 import Link from 'next/link';
 import Head from 'next/head';
@@ -12,6 +12,19 @@ import { siteConfig } from '@/config/siteConfig';
 
 
 const website = () => {
+  const [daysLeft, setDaysLeft] = useState(0);
+
+  useEffect(() => {
+    const calculateDaysLeft = () => {
+      const currentDate = new Date();
+      const examDate = new Date('2024-04-26');
+      const differenceInTime = examDate.getTime() - currentDate.getTime();
+      const differenceInDays = Math.ceil(differenceInTime / (1000 * 3600 * 24));
+      setDaysLeft(differenceInDays);
+    };
+
+    calculateDaysLeft();
+  }, []);
   return (
     <div>
       <Head>
