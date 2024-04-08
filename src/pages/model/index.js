@@ -10,6 +10,11 @@ function subject() {
     <div>
       <Head>
         <title>{siteConfig.productName} - Subject</title>
+        <style>
+          .cluss{
+            height: 365px;
+          }
+        </style>
       </Head>
   <br /><br /><br />
       <div class="classes flex justify-around flex-wrap">
@@ -32,7 +37,7 @@ function subject() {
           </div>
 
         </div>
-        <div class="cluss" style={{margin : '1rem 0rem'}}>
+        <div class="cluss" style={{margin : '1rem 0rem', height}}>
           <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <Link href="#">
               <img class="rounded-t-lg" src="/account.png" alt="" />
