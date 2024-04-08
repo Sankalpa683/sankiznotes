@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import firebase from '../../../src/firebaseConfig';
+import firebase from '../../firebaseConfig';
 
 const NotificationPermission = () => {
   useEffect(() => {
