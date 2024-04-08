@@ -1,6 +1,4 @@
 import React from 'react'
-import Nav from '../../nav.js'
-import Footer from '../../footer.js'
 import Head from 'next/head.js'
 import styles from '../chapters.module.css';
 
@@ -20,7 +18,6 @@ function helloworld() {
           <meta name="keywords" content="NEB, Class 12 Model Questions, NEB class 12 model questions, model questions, Grade 12 model questions, class 12 notes, class 12 notes nepal, neb notes, model questions nepal, class 12 model questions nepal">
       
     </Head>
-        <Nav/>
         <br></br><br></br><br></br>
         <div class="container mx-auto px-5 py-5">
             <div className={styles.chapter_breadcrumbs}>
@@ -61,7 +58,6 @@ function helloworld() {
         <div>
 
         </div>
-        <Footer/>
     </div>
   )
 }
