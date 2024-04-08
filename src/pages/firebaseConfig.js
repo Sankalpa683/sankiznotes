@@ -2,7 +2,6 @@ import firebase from 'firebase/app';
 import 'firebase/messaging';
 
 const firebaseConfig = {
-  
   apiKey: "AIzaSyAHI6AQh4Ltujvmkf2VTo33QYmif5O6V2g",
   authDomain: "alien-craft-362813.firebaseapp.com",
   projectId: "alien-craft-362813",
