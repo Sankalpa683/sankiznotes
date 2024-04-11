@@ -3,19 +3,11 @@ import Nav from './nav.js'
 import Footer from './footer.js'
 import Head from 'next/head';
 
-export default function App({ Component, pageProps }) {
-  Router.events.on('routeChangeStart', () => {
-    NProgress.start();
-  });
+Router.events.on("routeChangeStart", () => NProgress.start());
+Router.events.on("routeChangeComplete", () => NProgress.done());
+Router.events.on("routeChangeError", () => NProgress.done());
 
-  Router.events.on('routeChangeComplete', () => {
-    NProgress.done();
-  });
-
-  Router.events.on('routeChangeError', () => {
-    NProgress.done();
-  });
-  
+export default function App({ Component, pageProps }) {  
   return <> 
   <Head>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.js"></script>
