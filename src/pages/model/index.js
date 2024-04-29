@@ -10,12 +10,10 @@ function subject() {
     <div>
       <Head>
         <title>{siteConfig.productName} - NEB Class 12 Model Questions | Prepare Effectively with MozeeeNotes!</title>
-        <meta name="description" content="Access a comprehensive collection of NEB Class 12 model questions on MozeeeNotes. Prepare for your exams effectively with our curated selection of model question papers designed to help you excel."/>
+        <meta name="description" content="Access a comprehensive collection of NEB Class 12 model questions on MozeeeNotes. Prepare for your exams effectively with our curated selection of model question papers designed to help you excel." />
         <meta name="keywords" content="NEB, Nepal, 12th Grade, Study Notes, Exam Preparation, NEB Class 12, Model Questions, NEB Exam Preparation, Class 12 Model Papers" />
-        <meta name="Content-Type" content="NEB Class 12 Model Questions, Exam Preparation, Sample Papers">
-        <meta name="robots" content="index, follow">
-        
-        <meta 
+        <meta name="Content-Type" content="NEB Class 12 Model Questions, Exam Preparation, Sample Papers" />
+        <meta name="robots" content="index, follow" />
       </Head>
   <br /><br /><br />
       <div class="classes flex justify-around flex-wrap">
