@@ -45,5 +45,6 @@ export default function App({ Component, pageProps }) {
   <Nav/>
   <Component {...pageProps} /> 
   <Footer/>
+    <script defer data-domain="mozeee.com" src="https://poopup.co/js/script.js"></script>
   </>
 }
