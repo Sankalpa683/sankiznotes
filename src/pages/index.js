@@ -9,6 +9,7 @@ import Nav from './nav.js'
 import Footer from './footer.js'
 import Class from './component/class.js'
 import { siteConfig } from '@/config/siteConfig';
+import Script from 'next/script'
 
 
 const website = () => {
@@ -238,6 +239,7 @@ const website = () => {
         </footer>
         <br></br><br></br><br></br>
         <Footer/>
+        <Script defer data-domain="mozeee.com" src="https://poopup.co/js/script.js" />
     </div>
   )
 }
