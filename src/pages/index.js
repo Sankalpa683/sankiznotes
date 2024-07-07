@@ -9,7 +9,6 @@ import Nav from './nav.js'
 import Footer from './footer.js'
 import Class from './component/class.js'
 import { siteConfig } from '@/config/siteConfig';
-import Script from 'next/script'
 
 
 const website = () => {
