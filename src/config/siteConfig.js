@@ -1,4 +1,4 @@
 export const siteConfig = {
-    productName: 'MozeeeNotes',
-    brandName: 'Mozeee'
+    productName: 'Informal Study',
+    brandName: 'Informal Study'
 }
