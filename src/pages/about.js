@@ -42,7 +42,7 @@ const website = () => {
                             class="relative z-10 object-cover w-full rounded"></img>
                         <div
                             class="bottom-0 right-0 z-10 p-8 bg-white border-4 border-blue-500 rounded shadow dark:border-blue-400 lg:-mb-8 lg:-mr-11 sm:p-8 dark:text-gray-300 dark:bg-gray-800 ">
-                            <p class="text-lg font-semibold md:w-72">
+                            <p class="text-lg font-semibold md:w-72 text-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                                     class="absolute top-0 left-0 w-16 h-16 text-blue-700 dark:text-gray-300 opacity-10"
                                     viewBox="0 0 16 16">
