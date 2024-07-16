@@ -43,7 +43,7 @@ const haha = () => {
           <div className={styles.contact_second_email} style={{ display : 'flex', marginTop : '-1rem'}}>
             <svg width="27" height="25" viewBox="0 0 47 35" fill="none"
              xmlns="http://www.w3.org/2000/svg"><path d="M42.4286 0H1.57143C0.702232 0 0 0.697125 0 1.56V32.76C0 33.6229 0.702232 34.32 1.57143 34.32H42.4286C43.2978 34.32 44 33.6229 44 32.76V1.56C44 0.697125 43.2978 0 42.4286 0ZM40.4643 5.4015V30.81H3.53571V5.4015L2.18036 4.35337L4.11027 1.8915L6.21205 3.51488H37.7929L39.8946 1.8915L41.8246 4.35337L40.4643 5.4015V5.4015ZM37.7929 3.51L22 15.6975L6.20714 3.51L4.10536 1.88662L2.17545 4.3485L3.5308 5.39663L20.3058 18.3446C20.7882 18.7167 21.3817 18.9187 21.9926 18.9187C22.6035 18.9187 23.197 18.7167 23.6795 18.3446L40.4643 5.4015L41.8196 4.35337L39.8897 1.8915L37.7929 3.51Z" fill="currentColor"></path></svg>
-            <p style={{marginLeft : '0.4rem'}}>sank.dahal@gmail.com - For Personal/General Inquiries</p>
+            <p style={{marginLeft : '0.4rem'}}>studyinformal8@gmail.com - For Personal/General Inquiries</p>
           </div>
         </div>
       </div>
@@ -73,10 +73,10 @@ const haha = () => {
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
                     <ul class="text-gray-600 dark:text-gray-400">
                         <li class="mb-4">
-                            <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Facebook</a>
+                            <a href="https://www.facebook.com/Mr.Infromal" class="hover:underline ">Facebook</a>
                         </li>
                         <li>
-                            <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Github</a>
+                            <a href="" class="hover:underline">Github</a>
                         </li>
                     </ul>
                 </div>
