@@ -105,10 +105,10 @@ const website = () => {
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
                     <ul class="text-gray-600 dark:text-gray-400">
                         <li class="mb-4">
-                            <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Facebook</a>
+                            <a href="https://www.facebook.com/Mr.Infromal" class="hover:underline ">Facebook</a>
                         </li>
                         <li>
-                            <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Github</a>
+                            <a href="#" class="hover:underline">Github</a>
                         </li>
                     </ul>
                 </div>
