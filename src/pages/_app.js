@@ -22,7 +22,7 @@ export default function App({ Component, pageProps }) {
   return <> 
   <Head>
     <title>MozeeNotes - Comprehensive Study Notes for NEB 12th Grade Students in Nepal | MozeeeNotes </title>
-    <meta name="google-adsense-account" content="ca-pub-6643840488848439">
+    <meta name="google-adsense-account" content="ca-pub-6643840488848439" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6643840488848439"
      crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.css" />
