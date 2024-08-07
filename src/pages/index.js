@@ -68,7 +68,7 @@ const website = () => {
             <div className={styles.subjects_div}>
               <div className={styles.subjectdiv_image}>
                 <Image
-                src='/subject/computer.jpeg'
+                src='subject/computer.jpeg'
                 width='400'
                 height='500'
                 ></Image>
