@@ -3,6 +3,9 @@ import Nav from './nav.js'
 import Footer from './footer.js'
 import Head from 'next/head';
 import Router from 'next/router';
+import Script from 'next/script'
+
+
 import NProgress from 'nprogress'; // import the library
 import 'nprogress/nprogress.css'; // import the css
 
@@ -48,6 +51,17 @@ export default function App({ Component, pageProps }) {
   <Nav/>
   <Component {...pageProps} /> 
   <Footer/>
-    <script defer data-domain="informalstudy.info" src="https://poopup.co/js/script.js"></script>
+       <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6643840488848439"
+     crossorigin="anonymous"></Script>
+<!-- InformalStudy -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6643840488848439"
+     data-ad-slot="9718400583"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<Script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</Script>
   </>
 }
