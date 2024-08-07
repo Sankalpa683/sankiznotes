@@ -68,7 +68,7 @@ const website = () => {
             <div className={styles.subjects_div}>
               <div className={styles.subjectdiv_image}>
                 <Image
-                src='/subject.jpg'
+                src='/subject/computer.jpeg'
                 width='400'
                 height='500'
                 ></Image>
@@ -85,7 +85,7 @@ const website = () => {
             <div className={styles.subjects_div}>
               <div className={styles.subjectdiv_image}>
                 <Image
-                src='/subject.jpg'
+                src='/subject/account.jpeg'
                 width='400'
                 height='500'
                 ></Image>
@@ -102,7 +102,7 @@ const website = () => {
             <div className={styles.subjects_div}>
               <div className={styles.subjectdiv_image}>
                 <Image
-                src='/subject.jpg'
+                src='/subject/nepali.jpeg'
                 width='400'
                 height='500'
                 ></Image>
@@ -119,7 +119,7 @@ const website = () => {
             <div className={styles.subjects_div}>
               <div className={styles.subjectdiv_image}>
                 <Image
-                src='/subject.jpg'
+                src='/subject/social.jpeg'
                 width='400'
                 height='500'
                 ></Image>
@@ -136,7 +136,7 @@ const website = () => {
             <div className={styles.subjects_div}>
               <div className={styles.subjectdiv_image}>
                 <Image
-                src='/subject.jpg'
+                src='/subject/economics.jpeg'
                 width='400'
                 height='500'
                 ></Image>
@@ -153,7 +153,7 @@ const website = () => {
             <div className={styles.subjects_div}>
               <div className={styles.subjectdiv_image}>
                 <Image
-                src='/subject.jpg'
+                src='/subject/english.jpeg'
                 width='400'
                 height='500'
                 ></Image>
