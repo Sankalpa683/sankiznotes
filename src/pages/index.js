@@ -58,11 +58,6 @@ const website = () => {
         </div>
     </div>
 </section>
-      <div className="bg-white p-8 rounded-lg shadow-md m-4 flex flex-col flex-wrap justify-around items-center">
-        <h1 className="text-3xl font-bold mb-4 text-center">Study Hard!</h1>
-        <p className="text-xl mb-4 text-center">Class 12th NEB Exam Started</p>
-        <div className="text-4xl font-bold text-center">{daysLeft} days ago!</div>
-      </div>
         {/* <div className={styles.subject} id='subject'>
             <a href='/computer'>
             <div className={styles.subjects_div}>
